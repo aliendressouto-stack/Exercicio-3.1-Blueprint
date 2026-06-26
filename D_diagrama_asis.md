@@ -89,3 +89,21 @@ flowchart TD
 - **Artefatos (amarelo):** Portaria, Planilha de Controle, Consulta Prévia e Contracheque.
 - **Fail Points (vermelho):** FP1 a FP6, ancorados na fase em que ocorrem.
 - As setas **tracejadas** revelam o cerne do diagnóstico: quase toda a operação crítica (consultas, travas, cálculo, comunicação de aditivos e prestação de contas à AUDIT) acontece por vias **manuais ou informais**, não sistêmicas — exatamente onde os fail points se concentram.
+
+## Matriz de Responsabilidades (RACI)
+
+Complementa o fluxo acima detalhando a responsabilidade direta de cada ator sobre cada tarefa e artefato do processo. **R** = Responsável (executa a tarefa); **A** = Aprova/Presta contas (responde pelo resultado); **C** = Consultado (fornece insumo); **I** = Informado (recebe o resultado).
+
+| Tarefa / Artefato | Empregado/Executor | Diretorias Técnicas | NUPAG/GEPAG | AUDIT |
+| :--- | :---: | :---: | :---: | :---: |
+| Emitir e publicar a **portaria de designação** | I | R/A | I | — |
+| **Protocolar o requerimento** no SEI (prazo de 30 dias) | R/A | — | I | — |
+| Comunicar **aditivos/encerramentos** de contrato ao RH | C | R/A | I | — |
+| **Triagem documental** e emissão de diligência | C | — | R/A | — |
+| Aplicar **travas** (carência/teto) e **calcular** o benefício | I | C | R/A | — |
+| Manter a **planilha de controle** (Solução de Contorno) | — | C | R/A | C |
+| **Lançar e consolidar** o benefício na folha (ERP) | I | — | R/A | — |
+| Conferir a **pré-folha** (homologação) | R | — | A | — |
+| **Auditar** a conformidade da folha de pessoal | I | — | C | R/A |
+
+**Leitura crítica da matriz:** o NUPAG/GEPAG concentra a coluna de execução (**R/A**) em quase todas as tarefas de bastidor, evidenciando a sobrecarga e a dependência de pessoa-chave (FP5). Já as tarefas com responsabilidade **fragmentada entre atores** — comunicação de aditivos (DT↔NUPAG) e conferência da pré-folha (Empregado↔NUPAG) — são exatamente as que abrigam os fail points de ruptura (FP4) e de assimetria (FP6). A AUDIT aparece apenas como **A** na auditoria posterior, sem participação preventiva no fluxo — a "linha de defesa ausente" apontada no diagnóstico.
