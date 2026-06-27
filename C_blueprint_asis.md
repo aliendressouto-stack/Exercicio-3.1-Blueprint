@@ -3,6 +3,10 @@
 **Metodologia:** G. Lynn Shostack (cinco camadas + três linhas divisórias) | **Serviço:** pagamento do adicional da Cláusula Décima do ACT 2025/2027 | **Órgão:** NUPAG/GEPAG — Terracap
 **Fonte:** destilado da pesquisa adversarial `B_relatorio_assistente_v3.md` via sessão `/grill-me` (`C_grill_transcript.md`).
 
+> **O que este documento é.** Este arquivo **é** o *Service Blueprint AS-IS* propriamente dito — um **mapa temporal vetorial** (eixo cronológico T1→T5) com as **cinco camadas de Shostack** e as **três linhas divisórias**, e com as **conexões verticais explícitas** em cada coluna do tempo.
+>
+> Ele é a execução da **"Tarefa Zero"** decidida ao final da sabatina em `C_grill_transcript.md`: lá ficou constatado que o *relatório de pesquisa v3* (`B_relatorio_assistente_v3.md`) era ainda um **diagnóstico narrativo por camadas, sem eixo temporal** — e que o passo seguinte seria **converter esses ensaios em um único mapa cronológico com cruzamentos verticais**. É essa conversão que está materializada abaixo. Portanto, qualquer crítica do transcript sobre "ausência de eixo temporal" refere-se à *pesquisa v3*, **não** a este blueprint, que já a corrige.
+
 ## Eixo temporal (esquerda → direita)
 
 O blueprint é organizado cronologicamente em cinco fases sequenciais. O tempo flui da esquerda para a direita; cada coluna é um instante da jornada, e as células de uma mesma coluna são **simultâneas**. As setas verticais (↓) dentro de cada fase representam as **conexões verticais** — como uma ação de uma camada dispara a ação da camada imediatamente abaixo no mesmo instante.
